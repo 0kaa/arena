@@ -1,0 +1,68 @@
+@keyframes border_effect {
+    50% {
+        text-shadow: 1px 0 0 var(--secondarycolor), -1px 0 0 var(--secondarycolor), 0 1px 0 var(--secondarycolor), 0 -1px 0 var(--secondarycolor), 1px 1px var(--secondarycolor), -1px -1px 0 var(--secondarycolor), 1px -1px 0 var(--secondarycolor), -1px 1px 0 var(--secondarycolor)
+    }
+}
+
+@-webkit-keyframes border_effect {
+    50% {
+        text-shadow: 1px 0 0 var(--secondarycolor), -1px 0 0 var(--secondarycolor), 0 1px 0 var(--secondarycolor), 0 -1px 0 var(--secondarycolor), 1px 1px var(--secondarycolor), -1px -1px 0 var(--secondarycolor), 1px -1px 0 var(--secondarycolor), -1px 1px 0 var(--secondarycolor)
+    }
+}
+
+
+@keyframes border_effect2 {
+    50% {
+        text-shadow: 1px 0 0 #a0a0a0, -1px 0 0 #a0a0a0, 0 1px 0 #a0a0a0, 0 -1px 0 #a0a0a0, 1px 1px #a0a0a0, -1px -1px 0 #a0a0a0, 1px -1px 0 #a0a0a0, -1px 1px 0 #a0a0a0
+    }
+}
+
+@-webkit-keyframes border_effect2 {
+    50% {
+        text-shadow: 1px 0 0 #a0a0a0, -1px 0 0 #a0a0a0, 0 1px 0 #a0a0a0, 0 -1px 0 #a0a0a0, 1px 1px #a0a0a0, -1px -1px 0 #a0a0a0, 1px -1px 0 #a0a0a0, -1px 1px 0 #a0a0a0
+    }
+}
+
+@keyframes header_effect_title {
+    40% {
+        color: var(--secondarycolor);
+    }
+
+    60% {
+        color: var(--secondarycolor);
+    }
+}
+
+
+@-webkit-keyframes header_effect_title {
+    40% {
+        color: var(--secondarycolor);
+    }
+
+    60% {
+        color: var(--secondarycolor);
+    }
+}
+
+
+@keyframes page_head {
+
+    0% {
+        transform: rotate(-30deg) translate(45px, -26px);
+        -webkit-transform: rotate(-30deg) translate(45px, -26px);
+        -moz-transform: rotate(-30deg) translate(45px, -26px);
+        -ms-transform: rotate(-30deg) translate(45px, -26px);
+        -o-transform: rotate(-30deg) translate(45px, -26px);
+    }
+}
+
+@-webkit-keyframes page_head {
+
+    0% {
+        transform: rotate(-30deg) translate(45px, -26px);
+        -webkit-transform: rotate(-30deg) translate(45px, -26px);
+        -moz-transform: rotate(-30deg) translate(45px, -26px);
+        -ms-transform: rotate(-30deg) translate(45px, -26px);
+        -o-transform: rotate(-30deg) translate(45px, -26px);
+    }
+}

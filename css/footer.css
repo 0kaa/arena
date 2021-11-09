@@ -1,0 +1,107 @@
+footer{
+    text-align: center;
+    border-top: 1px solid #707070;
+}
+
+footer .border-style{
+    padding-top: 240px;
+    background-image: url(../images/main/footer-bg.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 320px;
+    position: relative;
+}
+
+.footer-logo {
+    position: absolute;
+    top: -250px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.copyright{
+    background: #fff;
+    color: #8E8E8E;
+}
+
+.copyright a{
+    color: #8E8E8E;
+    padding: 10px 0;
+    display: inline-block;
+}
+
+.copyright a i{
+    color: var(--secondarycolor);
+}
+
+.footer-list a{
+    color: #fff;
+    font-size: 19px;
+    position: relative;
+    padding: 0 15px;
+}
+
+.footer-list a:before{
+    content: "\f0d9";
+    position: absolute;
+    top: -5px;
+    font-family: "font awesome 5 free";
+    font-weight: bold;
+}
+.footer-list a:hover:before{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.footer-list a:hover{
+    color: var(--maincolor);
+}
+.socialmedia {
+    margin: 20px auto;
+}
+
+.socialmedia a{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color:var(--secondarycolor) ;
+    background-color: #fff;
+    line-height: 45px;
+    display: inline-block;
+    margin: 5px 10px;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    overflow:hidden;
+}
+
+.socialmedia a:before{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    border: 20px solid transparent;
+    right: 0;
+    border-bottom-color: var(--secondarycolor);
+    z-index: -1;
+}
+.socialmedia a:hover:before{
+    bottom: 0;
+}
+.socialmedia a:hover{
+    background: var(--maincolor);
+    color: #fff;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
